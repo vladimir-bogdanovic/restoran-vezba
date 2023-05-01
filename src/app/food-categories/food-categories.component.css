@@ -14,8 +14,9 @@
 .categories-wraper {
   display: flex;
   flex-wrap: wrap;
-  margin: 50px 250px;
+  padding: 20px 0;
   justify-content: center;
+  border-top: 1px solid black;
 }
 
 .card-wraper {
@@ -60,4 +61,8 @@ img {
   .categories-container {
     flex-direction: column;
   }
+}
+
+.form-container {
+  padding: 2rem;
 }

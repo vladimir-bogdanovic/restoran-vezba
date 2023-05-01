@@ -1,20 +1,10 @@
 import { Category } from './shared/category';
 
 export class CategoriesService {
-<<<<<<< HEAD
-
-  getFooooooood(name : string){
-    const food = this.Categories.find(
-      (category) => {
-        return category.name === name
-      }
-    )
-=======
-  getFood(id: number) {
+  getFooooooood(name: string) {
     const food = this.Categories.find((category) => {
-      return category.id === id;
+      return category.name === name;
     });
->>>>>>> bcc323e4cc9d18ed273fc5d1d9199d39d41aeddd
     return food;
   }
 
