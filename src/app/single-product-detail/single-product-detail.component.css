@@ -1,0 +1,33 @@
+<<<<<<< HEAD
+.singleProduct{
+    height: 100%;
+}
+=======
+.food-details-container {
+  width: 580px;
+  margin: 30px auto;
+  padding: 10px;
+  background-color: #fff;
+}
+p {
+  font-size: 1.5rem;
+}
+
+.img-category {
+  width: 560px;
+  height: 280px;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.category-name {
+  margin: 10px;
+}
+
+.category-description {
+  margin: 20px 10px;
+}
+>>>>>>> bcc323e4cc9d18ed273fc5d1d9199d39d41aeddd
